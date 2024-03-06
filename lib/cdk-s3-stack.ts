@@ -1,12 +1,3 @@
-# 2.16 Create S3 Bucket with AWS CDK
-
-Sample repository for assignment.
-
----
-
-Code to deploy S3 Bucket is within `cdk-s3-stack.ts`
-
-```typescript
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { Code, Function, Runtime } from 'aws-cdk-lib/aws-lambda';
@@ -37,12 +28,3 @@ export class CdkS3Stack extends cdk.Stack {
 
   }
 }
-```
-
-Run `cdk init app --language=typescript` to initialise the empty folder, which will then automatically create the necessary files for deployment
-
-Run `cdk synth` to prepare the deployment template. Similar to `terraform plan`
-
-Run `cdk deploy` to deploy the infrastructure. Similar to `terraform apply`
-
-Run `cdk destroy` to destroy the created infrastructure, when successfully deployed
