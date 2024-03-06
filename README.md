@@ -46,3 +46,5 @@ Run `cdk synth` to prepare the deployment template. Similar to `terraform plan`
 Run `cdk deploy` to deploy the infrastructure. Similar to `terraform apply`
 
 Run `cdk destroy` to destroy the created infrastructure, when successfully deployed
+
+**CDK is an alternative IaC tool to launch AWS infrastructure only.**
